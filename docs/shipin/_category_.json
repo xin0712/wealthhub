@@ -1,0 +1,9 @@
+{
+  "label": "视频",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "视频",
+    "slug": "/shipin"
+  }
+}
