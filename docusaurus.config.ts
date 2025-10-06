@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: '菜菜贝',
-  tagline: '本教程适用于投资理财新手、想理财但缺乏系统知识的年轻人（20–35岁）。',
+  title: 'WealthHub',
+  tagline: '用正确观念与优质信息，构建可持续的个人理财体系。',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -97,7 +97,7 @@ const config: Config = {
       },
     },
     navbar: {
-      title: '菜菜贝',
+      title: 'WealthHub',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',

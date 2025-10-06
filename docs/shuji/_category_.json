@@ -1,4 +1,10 @@
 {
   "label": "书籍",
-  "position": 7
+  "position": 7,
+  "link": {
+    "type": "generated-index",
+    "title": "📚 书籍",
+    "slug": "/shuji",
+    "description": "按入门/进阶/高级/兴趣分组的书单索引"
+  }
 }
