@@ -20,7 +20,8 @@
 /* Practice timeline summary color: light yellow */
 .practice-timeline details {
   background: var(--ifm-color-warning-contrast-background);
-  border-left: 4px solid var(--ifm-color-warning);
+  border: 1px solid var(--ifm-color-warning);
+  border-left-width: 4px; /* 保留左侧强调线 */
   border-radius: 6px;
 }
 
@@ -28,7 +29,59 @@
   background: var(--ifm-color-warning-contrast-background);
   padding: 8px 12px;
   border-radius: 6px;
+  border-bottom: none !important; /* 移除主题默认的蓝色分割线 */
+  list-style: none; /* 去掉默认 marker */
+  display: flex;            /* 使自定义三角与文字垂直居中 */
+  align-items: center;
+  line-height: 1.4;
 }
+
+/* 折叠三角颜色（Chrome/Safari/Firefox） */
+/* 隐藏默认 marker，使用自定义黄色三角 */
+.practice-timeline details > summary::-webkit-details-marker { display: none; }
+.practice-timeline details > summary::marker { content: ''; }
+.practice-timeline details > summary::before {
+  content: '';
+  display: inline-block;
+  width: 0; height: 0;
+  margin-right: 8px;
+  border-style: solid;
+  border-width: 6px 0 6px 8px; /* ▶ */
+  border-color: transparent transparent transparent var(--ifm-color-warning);
+  transform: rotate(0deg);
+  transition: transform .2s ease;
+  align-self: center;
+  position: relative;
+  top: 1px; /* 微调：略微上移 */
+}
+.practice-timeline details[open] > summary::before {
+  transform: rotate(90deg); /* ▼ */
+}
+
+/* 展开内容顶部的分割线颜色保持与主题一致 */
+.practice-timeline details[open] > summary { border-bottom: none !important; }
+
+/* 有些主题会在 summary 上用 ::after 或给内容块加顶部分割线，这里统一移除 */
+.practice-timeline details > summary::after { display: none !important; }
+.practice-timeline details[open] > summary + * { border-top: none !important; }
+/* 更彻底地干掉蓝色分割线（无论后续包裹几层） */
+.practice-timeline details > *:not(summary) { border-top: none !important; }
+/* 选择 hashed 的折叠内容类名（Docusaurus Collapsible） */
+.practice-timeline [class*="collapsibleContent"] { border-top: none !important; }
+.practice-timeline [class*="collapsibleContentInner"] { border-top: none !important; }
+.practice-timeline details > summary + div { border-top: none !important; }
+
+/* 在内容区加上浅黄色上边框（仅设置在最外层 wrapper 上） */
+.practice-timeline details[open] > summary + * {
+  border-top: 1px solid var(--ifm-color-warning) !important;
+}
+/* 防止内部容器再次绘制顶边线导致双线 */
+.practice-timeline details[open] > summary + * [class*="collapsibleContent"],
+.practice-timeline details[open] > summary + * [class*="collapsibleContentInner"] {
+  border-top: 0 !important;
+}
+
+/* 还原 alert 默认 before 图标与样式，避免内容左移问题（不再强制隐藏） */
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {

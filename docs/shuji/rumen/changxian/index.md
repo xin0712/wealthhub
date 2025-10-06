@@ -1,6 +1,6 @@
 ---
 title: 股市长线法宝
-ebook: /ebooks/rumen/changxian.pdf
+ebook: /ebooks/rumen/changxian.epub
 sidebar_position: 7
 ---
 ## 书籍信息
@@ -9,7 +9,7 @@ sidebar_position: 7
 - 出版日期：1994
 - Goodreads评分：
 - 豆瓣评分：
-- 电子书： [下载](/ebooks/rumen/changxian.pdf)
+ - 电子书： [下载](/ebooks/rumen/changxian.epub)
 
 ## 核心内容
 - 长期股权溢价来自生产率与红利再投资

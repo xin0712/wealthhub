@@ -1,6 +1,6 @@
 ---
 title: 穷查理宝典
-ebook: /ebooks/rumen/qiong-chali-baodian.pdf
+ebook: /ebooks/rumen/qiong-chali-baodian.epub
 sidebar_position: 10
 ---
 ## 书籍信息
@@ -9,7 +9,7 @@ sidebar_position: 10
 - 出版日期：2005
 - Goodreads评分：
 - 豆瓣评分：
-- 电子书： [下载](/ebooks/rumen/qiong-chali-baodian.pdf)
+ - 电子书： [下载](/ebooks/rumen/qiong-chali-baodian.epub)
 
 ## 核心内容
 - 多元思维模型：跨学科避免单一偏见

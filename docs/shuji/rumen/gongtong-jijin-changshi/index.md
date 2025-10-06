@@ -1,6 +1,6 @@
 ---
 title: 共同基金常识
-ebook: /ebooks/rumen/gongtong-jijin-changshi.pdf
+ebook: /ebooks/rumen/gongtong-jijin-changshi.epub
 sidebar_position: 5
 ---
 ## 书籍信息
@@ -9,7 +9,7 @@ sidebar_position: 5
 - 出版日期：1999
 - Goodreads评分：
 - 豆瓣评分：
-- 电子书： [下载](/ebooks/rumen/gongtong-jijin-changshi.pdf)
+ - 电子书： [下载](/ebooks/rumen/gongtong-jijin-changshi.epub)
 
 ## 核心内容
 - 基金分类与费用结构一览

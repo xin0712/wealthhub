@@ -1,6 +1,6 @@
 ---
 title: 巴菲特致股东的信
-ebook: /ebooks/rumen/bafeite-xin.pdf
+ebook: /ebooks/rumen/bafeite-xin.epub
 sidebar_position: 9
 ---
 ## 书籍信息
@@ -9,7 +9,7 @@ sidebar_position: 9
 - 出版日期：合集（1965起）
 - Goodreads评分：
 - 豆瓣评分：
-- 电子书： [下载](/ebooks/rumen/bafeite-xin.pdf)
+ - 电子书： [下载](/ebooks/rumen/bafeite-xin.epub)
 
 ## 核心内容
 - 以合理价格买入伟大公司并长期持有

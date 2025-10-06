@@ -1,6 +1,6 @@
 ---
 title: 指数基金投资指南
-ebook: /ebooks/rumen/zhishu-jijin-zhinan.pdf
+ebook: /ebooks/rumen/zhishu-jijin-zhinan.epub
 sidebar_position: 4
 ---
 ## 书籍信息
@@ -9,7 +9,7 @@ sidebar_position: 4
 - 出版日期：2007
 - Goodreads评分：
 - 豆瓣评分：
-- 电子书： [下载](/ebooks/rumen/zhishu-jijin-zhinan.pdf)
+ - 电子书： [下载](/ebooks/rumen/zhishu-jijin-zhinan.epub)
 
 ## 核心内容
 - 买市场而非挑基金经理
