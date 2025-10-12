@@ -115,6 +115,7 @@ const config: Config = {
           label: '📚 书籍',
           position: 'left',
         },
+        {to: '/blog', label: '📝 更新日志', position: 'left'},
         {type: 'search', position: 'right'},
         {to: '/feedback', label: '💬 反馈', position: 'right'},
       ],

@@ -47,7 +47,7 @@ function ThreeColumns() {
         <h2 className={styles.sectionTitle}>基本介绍</h2>
         <div className={styles.featuresGrid}>
           <div className={styles.featureItem}>
-            <h3>About This Tutorial</h3>
+            <h3>关于本教程</h3>
             <p>如果你开始有意愿打理自己的金钱，那么这份教程可以帮助你从零开始建立起一套可执行的路径。至少，不会让你在错误的道路上越走越远。</p>
           </div>
           <div className={styles.featureItem}>
