@@ -3,21 +3,88 @@
  * and scoped locally.
  */
 
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
+.heroRoot {
   position: relative;
-  overflow: hidden;
+  z-index: 0;
+  padding: 4rem 0;
+  background: transparent;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroRoot::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(rgba(0,0,0,0.04) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0,0,0,0.04) 1px, transparent 1px);
+  background-size: 64px 64px; /* 再次放大网格 */
+  opacity: 1;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.heroWrap {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 40px;
+  align-items: center;
+  position: relative;
+  z-index: 1; /* 确保内容在网格之上 */
+}
+
+.heroTitle {
+  font-size: 3.25rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: var(--ifm-color-emphasis-700);
 }
 
 .buttons {
+  margin-top: 1.25rem;
   display: flex;
-  align-items: center;
+  gap: 12px;
+}
+
+.heroRight {
+  display: flex;
   justify-content: center;
+}
+
+.heroImage {
+  width: 560px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+}
+
+@media screen and (max-width: 996px) {
+  .heroRoot { padding: 2rem 0; }
+  .heroWrap { grid-template-columns: 1fr; gap: 24px; }
+  .heroTitle { font-size: 2.25rem; }
+}
+
+.featuresSection { padding: 4rem 0 6rem; }
+
+.sectionTitle {
+  font-size: 2rem;
+  margin: 0 0 2rem 0; /* 增加标题与内容间距 */
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px; /* 增加每个部分之间的间距 */
+}
+
+.featureItem h3 { margin: 0 0 0.9rem 0; }
+.featureItem p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+}
+
+@media screen and (max-width: 996px) {
+  .featuresGrid { grid-template-columns: 1fr; }
 }
