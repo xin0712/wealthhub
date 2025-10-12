@@ -76,6 +76,17 @@ const config: Config = {
     ],
   ],
 
+  // Plugins
+  plugins: [
+    [
+      require.resolve('@docusaurus/plugin-google-gtag'),
+      {
+        trackingID: 'G-4JEYTCB9ES',
+        anonymizeIP: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
