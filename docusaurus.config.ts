@@ -92,6 +92,9 @@ const config: Config = {
     ],
   ],
 
+  // Load client modules (run in browser). Used to默认展开所有 details 折叠块
+  clientModules: [require.resolve('./src/clientModules/autoOpenDetails.ts')],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
