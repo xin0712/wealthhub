@@ -81,19 +81,23 @@ const config: Config = {
     ],
   ],
 
-  // Plugins
+  // Plugins（仅在生产环境启用 gtag，避免本地预览受拦截插件影响报错）
   plugins: [
-    [
-      require.resolve('@docusaurus/plugin-google-gtag'),
-      {
-        trackingID: 'G-4JEYTCB9ES',
-        anonymizeIP: true,
-      },
-    ],
+    ...(process.env.NODE_ENV === 'production'
+      ? [
+          [
+            require.resolve('@docusaurus/plugin-google-gtag'),
+            {
+              trackingID: 'G-4JEYTCB9ES',
+              anonymizeIP: true,
+            },
+          ],
+        ]
+      : []),
   ],
 
-  // Load client modules (run in browser). Used to默认展开所有 details 折叠块
-  clientModules: [require.resolve('./src/clientModules/autoOpenDetails.ts')],
+  // Load client modules (run in browser)
+  clientModules: [],
 
   themeConfig: {
     // Replace with your project's social card
