@@ -12,8 +12,6 @@ title: 纳指科技（NASDAQ-100）：全球科技资本的风向标
 
 与传统的道琼斯工业平均指数（DJIA）或标准普尔 500（S&P 500）相比，纳指科技更偏重于创新驱动与成长性，因此常被称为“科技股的心电图”。
 
-⸻
-
 ## 二、指数构成与行业分布
 
 截至 2025 年 10 月，纳指科技中共有 100 家非金融公司，覆盖了 10 个主要行业。  
@@ -32,7 +30,6 @@ title: 纳指科技（NASDAQ-100）：全球科技资本的风向标
 
 这意味着，虽然“纳指科技”名字里带“科技”，但其实它已经演变为涵盖消费、通信、医疗的多元成长股集合。科技仍是核心，但非唯一支柱。
 
-⸻
 
 ## 三、纳指科技的选股机制与变更频率
 
@@ -63,7 +60,6 @@ title: 纳指科技（NASDAQ-100）：全球科技资本的风向标
 
 🧾 官方参考：NASDAQ Corporate Communications, Annual Review Reports (2018–2024)
 
-⸻
 
 ## 四、成分股代表性公司（2025 年名单节选）
 
@@ -82,7 +78,6 @@ title: 纳指科技（NASDAQ-100）：全球科技资本的风向标
 
 💡 数据来源：NASDAQ, Yahoo Finance, Bloomberg Terminal（截至 2025 年 10 月 31 日）
 
-⸻
 
 ## 五、纳指科技的历史表现
 
@@ -102,7 +97,7 @@ title: 纳指科技（NASDAQ-100）：全球科技资本的风向标
 
 📈 数据来源：Morningstar Total Return Index Data, 2025 年 3 月更新。
 
-⸻
+
 
 ## 六、指数投资与衍生品
 
@@ -128,7 +123,7 @@ title: 纳指科技（NASDAQ-100）：全球科技资本的风向标
 
 🧭 数据来源：CME Group Product Guide, 2025 Edition.
 
-⸻
+
 
 ## 七、纳指科技的影响力与经济意义
 
@@ -144,7 +139,7 @@ title: 纳指科技（NASDAQ-100）：全球科技资本的风向标
 3) 全球资本配置核心  
 全球约有 1.3 万亿美元资产通过 ETF、基金或衍生品追踪纳指科技的表现（Bloomberg ETF Research, 2025 年）。
 
-⸻
+
 
 ## 八、成分股变更的案例分析
 
@@ -158,7 +153,7 @@ title: 纳指科技（NASDAQ-100）：全球科技资本的风向标
 
 📜 资料参考：NASDAQ Historical Component Changes (2000–2024)
 
-⸻
+
 
 ## 九、未来展望（2025–2030）
 
@@ -173,7 +168,7 @@ Apple、Amazon、Google 等将向硬件 + 服务混合盈利模式转变，保�
 
 🔮 预测参考：Goldman Sachs Tech Equity Outlook 2025–2030, UBS Global Research 2025 Q2.
 
-⸻
+
 
 ## 十、结语
 
