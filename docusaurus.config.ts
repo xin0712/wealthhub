@@ -42,6 +42,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          remarkPlugins: [require('./src/markdown/remarkLinkifyNasdaqTech')],
         },
         blog: {
           showReadingTime: true,
